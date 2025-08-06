@@ -11,3 +11,20 @@ The original work trained and evaluated linear regression, logistic regression, 
 The expanded version moves from binary classification to **dollar‑value damage estimation** and **geospatial risk mapping**. It integrates CAL FIRE fire perimeters, NOAA historical weather, USGS vegetation indices (NDVI), and property value data to model wildfire impact at a given location and time.
 
 ---
+
+## 📁 Project Structure
+
+```
+├── apps/
+│   ├── frontend/               
+│   └── backend/                
+
+├── data/                       # Data science & ML models
+
+├── packages/
+│   └── shared/                 # Shared code between apps
+
+└── README.md                   # This file
+```
+
+---
